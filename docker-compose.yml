@@ -1,0 +1,15 @@
+version: '2'
+services:
+  openlmis:
+    build: ./openlmis
+    ports:
+      - "8080:8080"
+    env_file:
+      - ./db.env
+    links:
+      - trainingdb
+  trainingdb:
+    build: ./trainingdb
+    env_file:
+      - ./db.env
+
