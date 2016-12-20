@@ -27,8 +27,8 @@ set -xeu \
     && rm -f $PHANTOM_JS.tar.bz2
 
 #install flyway
-mkdir -p /opt/flyway/
-cd /opt/flyway/
-wget https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/4.0.3/flyway-commandline-4.0.3-linux-x64.tar.gz
-tar -xvzf flyway-commandline-4.0.3-linux-x64.tar.gz -C . --strip-components=1
-rm flyway-commandline-4.0.3-linux-x64.tar.gz
+#mkdir -p /opt/flyway/
+#cd /opt/flyway/
+#wget https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/4.0.3/flyway-commandline-4.0.3-linux-x64.tar.gz
+#tar -xvzf flyway-commandline-4.0.3-linux-x64.tar.gz -C . --strip-components=1
+#rm flyway-commandline-4.0.3-linux-x64.tar.gz
