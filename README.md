@@ -1,2 +1,2 @@
 # docker-compose-demo
-is a spike, not a right right to config docker
+is a spike, not a right way to compose images
